@@ -54,18 +54,19 @@ hr {
     color: #fff;
 }
 
-#navigation .search { 
-  background-color: #444 !important; 
-  border: 1px solid #5d6a73; 
+#navigation .search {
+    background-color: #444 !important;
+    border: 1px solid #5d6a73;
 }
 
-#navigation .search .input input { 
-  padding: 0 !important; 
-  line-height: 10px; !important; 
-  height: 20px !important; 
-  width: 85px !important; 
-  margin-left: 10px !important; 
-  margin-top: 2px !important; 
+#navigation .search .input input {
+    padding: 0 !important;
+    line-height: 10px;
+    !important;
+     height: 20px !important;
+    width: 85px !important;
+    margin-left: 10px !important;
+    margin-top: 2px !important;
 }
 
 .wrapper {
@@ -156,7 +157,8 @@ hr {
 
 .bg_gradient {
     background: none !important;
-    background-image: url(data: image/svg+xml;
+    background-image: url(data:  image/svg+xml;
+    
     base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSJyZ2IoNDgsIDEwNCwgMTQ4KSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI0MjQyNCIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iMCUiIHk9IjAlIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMjQyNDI0IiAvPjxyZWN0IHg9IjAlIiB5PSItMTAwJSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMjAwJSIgZmlsbD0idXJsKCNnKSIgLz48L3N2Zz4=) !important;
     background-image: -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 196, color-stop(0%, rgb(48, 104, 148)), color-stop(100%, #242424)) !important;
 
@@ -653,4 +655,29 @@ label[for=body],label[for=title],label[for=contributor],label[for=private],label
 
 .post .right div[style] {
     .background: #AFCF4D !important;
+}
+
+.confirm_giveaway .game_img img {
+    background-color: #333 !important;
+    border: 1px solid #333 !important;
+}
+
+.confirm_giveaway .row {
+    border: 1px solid #333 !important;
+    background-image: none !important;
+    background-repeat: none !important;
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+.confirm_giveaway .stop {
+    color: #fff !important;
+}
+
+.stop strong {
+    color: red !important;
+}
+
+.confirm_giveaway .edit,.confirm_giveaway .cancel {
+    color: #fff !important;
 }
