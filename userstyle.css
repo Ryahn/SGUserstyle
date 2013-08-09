@@ -157,7 +157,9 @@ hr {
 
 .bg_gradient {
     background: none !important;
-    background-image: url(data:   image/svg+xml;
+    background-image: url(data:     image/svg+xml;
+    
+    
     
     
     base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSJyZ2IoNDgsIDEwNCwgMTQ4KSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI0MjQyNCIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iMCUiIHk9IjAlIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMjQyNDI0IiAvPjxyZWN0IHg9IjAlIiB5PSItMTAwJSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMjAwJSIgZmlsbD0idXJsKCNnKSIgLz48L3N2Zz4=) !important;
@@ -461,7 +463,7 @@ input[type="submit"] {
 }
 
 div[style] {
-    text-shadow: 1px 1px none !important;
+    text-shadow: #333 1px 1px !important;
 }
 
 .mod_container .username {
@@ -646,7 +648,7 @@ div[style] {
 }
 
 label[for=body],label[for=title],label[for=contributor],label[for=private],label[for=date],label[for=copies],label[for=game_id],span .private,.row .title,strong,.status,.sgpWinChance,.entries,.c_sent,.c_received,.date_entered,.received,.details,.wishlist_ajax .wishlist .heading,.wishlist_ajax .recommended .heading,.footer_column .h4 ul {
-    text-shadow: none !important;
+    text-shadow: none 1px 1px !important;
     color: #EAEAEB !important;
 }
 
@@ -697,4 +699,44 @@ label[for=body],label[for=title],label[for=contributor],label[for=private],label
     background-repeat: none !important;
     border-radius: 15px 15px 15px 15px !important;
     background-color: #0E0D0D !important;
+}
+
+.winner_container {
+    background-color: #333 !important;
+}
+
+.winner_container div[style] {
+    text-shadow: #000 1px 1px;
+}
+
+.manage .option.enabled {
+    color: #94A0A7 !important;
+}
+
+.winner_container .received .user_received {
+    text-shadow: #333 1px 1px !important;
+}
+
+.manage .row .title,.manage .row .entries,.manage .row .date_entered,.manage .row .status,.manage .row .received,.manage .row .c_sent,.manage .row .c_received {
+    text-shadow: #333 1px 1px !important;
+}
+
+.email {
+    color: #fff !important;
+}
+
+.absolute_dropdown {
+    background-color: #222 !important;
+}
+
+.absolute_dropdown .items .item a:hover {
+    background-color: #333 !important;
+}
+
+a.button {
+    background-color: #222 !important;
+}
+
+.register .important,.invites .row.first,.invites .divider,.invites .row {
+    background: #1F1F1F !important;
 }
