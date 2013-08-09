@@ -157,7 +157,8 @@ hr {
 
 .bg_gradient {
     background: none !important;
-    background-image: url(data:  image/svg+xml;
+    background-image: url(data:   image/svg+xml;
+    
     
     base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSJyZ2IoNDgsIDEwNCwgMTQ4KSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI0MjQyNCIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iMCUiIHk9IjAlIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMjQyNDI0IiAvPjxyZWN0IHg9IjAlIiB5PSItMTAwJSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMjAwJSIgZmlsbD0idXJsKCNnKSIgLz48L3N2Zz4=) !important;
     background-image: -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 196, color-stop(0%, rgb(48, 104, 148)), color-stop(100%, #242424)) !important;
@@ -680,4 +681,20 @@ label[for=body],label[for=title],label[for=contributor],label[for=private],label
 
 .confirm_giveaway .edit,.confirm_giveaway .cancel {
     color: #fff !important;
+}
+
+.wishlist .row .price,.recommended .row .price {
+    background-color: #333 !important;
+}
+
+.load_wishlist {
+    background-color: #333 !important;
+    border: 1px solid #424242 !important;
+}
+
+.footer_sm {
+    background-image: none !important;
+    background-repeat: none !important;
+    border-radius: 15px 15px 15px 15px !important;
+    background-color: #0E0D0D !important;
 }
