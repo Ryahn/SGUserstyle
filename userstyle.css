@@ -648,8 +648,8 @@ div[style] {
 }
 
 label[for=body],label[for=title],label[for=contributor],label[for=private],label[for=date],label[for=copies],label[for=game_id],span .private,.row .title,strong,.status,.sgpWinChance,.entries,.c_sent,.c_received,.date_entered,.received,.details,.wishlist_ajax .wishlist .heading,.wishlist_ajax .recommended .heading,.footer_column .h4 ul {
-    /*text-shadow: #3A3A3A 1px 1px !important;*/
-    color: #707070;
+    text-shadow: #000 1px 1px !important;
+    color: #979797;
 }
 
 .post {
